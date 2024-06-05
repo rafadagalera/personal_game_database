@@ -1,0 +1,12 @@
+@use "mixins";
+@use "variables";
+
+* {
+    @include mixins.zero-config();
+}
+
+body {
+    background-color: variables.$dark-color;
+    color: variables.$light-color;
+    font-family: variables.$font-family;
+}
