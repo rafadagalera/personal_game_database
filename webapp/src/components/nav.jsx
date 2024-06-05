@@ -1,5 +1,6 @@
-import '../styles/components/_nav.scss'
-import { Link } from 'react-router-dom'
+import '../styles/components/_nav.scss';
+import { Link } from 'react-router-dom';
+
 export default function Nav() {
     return (
         <>
@@ -17,6 +18,5 @@ export default function Nav() {
                 </ul>
             </nav>
         </>
-    )
-
+    );
 }

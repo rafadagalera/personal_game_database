@@ -1,6 +1,6 @@
 import Nav from "./components/nav"
 import { Outlet } from 'react-router-dom'
-import './styles/main.css'
+import './styles/main.scss';
 
 export default function App(){
   return (
